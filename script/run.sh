@@ -1,1 +1,1 @@
-docker run -d -p 80:80 -e CUSTOM_HEADER="Your-Custom-Value" nginx-github-proxy
+docker run -d -p 80:80 -e CUSTOM_HEADER="Your-Custom-Value" -e GH_TOKEN="$GH_TOKEN" nginx-github-proxy
