@@ -1,0 +1,1 @@
+docker run -d -p 80:80 -e CUSTOM_HEADER="Your-Custom-Value" nginx-github-proxy
